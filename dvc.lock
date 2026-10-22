@@ -36,14 +36,14 @@ stages:
     params:
       params.yaml:
         train.max_depth: 3
-        train.n_estimators: 50
+        train.n_estimators: 200
         train.random_state: 42
     outs:
     - path: metrics.json
       hash: md5
-      md5: 32d4ac5c77eb171f999b9b2b8f279fbc
-      size: 67
+      md5: 0143f24fbb40e1cacd2d67985c82679f
+      size: 66
     - path: models/model.pkl
       hash: md5
-      md5: a758e099bf93440cc64425efc4d8d196
-      size: 77897
+      md5: 6a80940ba2fcae8c0cf0b2cd48987ce4
+      size: 305577
